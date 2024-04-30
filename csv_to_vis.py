@@ -55,7 +55,7 @@ for i in range(len(song_title)):
     plt.text(i, daily_streams.iloc[i], daily_streams_label, fontsize=8, ha='center', va='bottom', color='red', fontweight='bold', bbox=dict(facecolor='white', edgecolor='none', pad=1))
 
 
-# Legend Adjustment : 
+# Legend Adjustment
 plt.legend(loc='upper right', bbox_to_anchor=(1.25, 1))
 
 plt.subplots_adjust(left=0.05, right=0.95, top=0.95, bottom=0.05)  # Adjust the margins
